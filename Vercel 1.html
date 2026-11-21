@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kick Night - Football & 1xBet Official</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #0b1120;
+      color: #f8fafc;
+      line-height: 1.6;
+      padding-bottom: 40px;
+    }
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #0f172a);
+      text-align: center;
+      padding: 32px 16px;
+      border-bottom: 2px solid #38bdf8;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #38bdf8;
+      letter-spacing: 1px;
+    }
+    header p {
+      color: #cbd5e1;
+      font-size: 0.95rem;
+      margin-top: 6px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 20px auto;
+      padding: 0 16px;
+    }
+    .card {
+      background-color: #1e293b;
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+      border: 1px solid #334155;
+    }
+    .card h2 {
+      font-size: 1.25rem;
+      color: #38bdf8;
+      margin-bottom: 12px;
+      border-left: 4px solid #38bdf8;
+      padding-left: 10px;
+    }
+    .promo-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0f172a;
+      border: 1px dashed #38bdf8;
+      border-radius: 10px;
+      padding: 12px 16px;
+      margin: 14px 0;
+    }
+    .promo-code {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #facc15;
+      letter-spacing: 2px;
+    }
+    .copy-btn {
+      background: #38bdf8;
+      color: #0f172a;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      padding: 14px;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1rem;
+      margin-top: 10px;
+      transition: opacity 0.2s;
+    }
+    .btn:hover {
+      opacity: 0.9;
+    }
+    .btn-primary {
+      background: linear-gradient(90deg, #2563eb, #0284c7);
+      color: #ffffff;
+    }
+    .btn-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .btn-telegram {
+      background: #0088cc;
+      color: #ffffff;
+      flex: 1;
+    }
+    .btn-viber {
+      background: #7360f2;
+      color: #ffffff;
+      flex: 1;
+    }
+    .btn-youtube {
+      background: #dc2626;
+      color: #ffffff;
+      flex: 1;
+    }
+    .info-text {
+      color: #cbd5e1;
+      font-size: 0.95rem;
+      margin-bottom: 8px;
+    }
+    .address-box {
+      background: #0f172a;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      color: #e2e8f0;
+      margin-top: 10px;
+    }
+    .stream-wrapper {
+      width: 100%;
+      height: 520px;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #000;
+    }
+    .stream-wrapper iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      color: #64748b;
+      font-size: 0.85rem;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>KICK NIGHT</h1>
+    <p>ဘောလုံးပွဲစဉ်များ၊ တိုက်ရိုက်ကြည့်ရှုမှုနှင့် 1xBet ဝန်ဆောင်မှု</p>
+  </header>
+
+  <div class="container">
+    <!-- 1xBet Registration Section -->
+    <div class="card">
+      <h2>1xBet အကောင့်သစ်ဖွင့်ရန်</h2>
+      <p class="info-text">
+        အောက်ပါ Promo Code ကို အသုံးပြုပြီး အကောင့်သစ်ဖွင့်ပါက ပထမဆုံး ငွေသွင်းမှုအတွက် Bonus ရယူနိုင်ပါသည်။
+      </p>
+      <div class="promo-box">
+        <span class="promo-code" id="promoCode">CNC92</span>
+        <button class="copy-btn" onclick="copyPromo()">Copy ကူးမည်</button>
+      </div>
+      <a class="btn btn-primary" href="https://reffpa.com/L?tag=d_1563989m_97c_&site=1563989&ad=97" target="_blank">
+        1xBet အကောင့်ဖွင့်ရန် နှိပ်ပါ
+      </a>
+    </div>
+
+    <!-- Deposit & Withdrawal Section -->
+    <div class="card">
+      <h2>ငွေသွင်း / ငွေထုတ် ဝန်ဆောင်မှု</h2>
+      <p class="info-text">
+        မြန်ဆန်စိတ်ချရသော ငွေသွင်း/ငွေထုတ် ဝန်ဆောင်မှုအတွက် Telegram သို့မဟုတ် Viber မှ တိုက်ရိုက်ဆက်သွယ်နိုင်ပါသည်။
+      </p>
+      <div class="address-box">
+        <strong>ငွေထုတ်လိပ်စာ (Cash Address):</strong><br />
+        City: Bago | Street: NoraDK
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-telegram" href="https://t.me/+959780817543" target="_blank">Telegram</a>
+        <a class="btn btn-viber" href="viber://chat?number=%2B959780817543">Viber</a>
+      </div>
+    </div>
+
+    <!-- Live Football Section -->
+    <div class="card">
+      <h2>ဘောလုံးပွဲ Live & Highlights</h2>
+      <div class="stream-wrapper">
+        <iframe src="https://www.scorebat.com/embed/main/" allowfullscreen allow="autoplay; fullscreen"></iframe>
+      </div>
+    </div>
+
+    <!-- Social Channels Section -->
+    <div class="card">
+      <h2>Kick Night Channels</h2>
+      <div class="btn-row">
+        <a class="btn btn-youtube" href="https://www.youtube.com/@kicknight999" target="_blank">YouTube</a>
+        <a class="btn btn-telegram" href="https://t.me/SevenZ92" target="_blank">Telegram Channel</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Kick Night. All rights reserved.
+  </footer>
+
+  <script>
+    function copyPromo() {
+      const code = document.getElementById('promoCode').innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert('Promo Code (CNC92) ကို Copy ကူးပြီးပါပြီ။');
+      });
+    }
+  </script>
+
+</body>
+</html>
